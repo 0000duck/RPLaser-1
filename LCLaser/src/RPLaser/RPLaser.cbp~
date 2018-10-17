@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="RPResearch" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/RPResearch" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="../../GE400/ges.cpp" />
+		<Unit filename="../../GE400/ges.h" />
+		<Unit filename="../IO/ioslc.cpp" />
+		<Unit filename="../IO/ioslc.h" />
+		<Unit filename="../builder/buffthread.cpp" />
+		<Unit filename="../builder/buffthread.h" />
+		<Unit filename="../builder/command.h" />
+		<Unit filename="../builder/control.cpp" />
+		<Unit filename="../builder/control.h" />
+		<Unit filename="../builder/tabcontrol.cpp" />
+		<Unit filename="../builder/tabcontrol.h" />
+		<Unit filename="../dataprocess/data.cpp" />
+		<Unit filename="../dataprocess/data.h" />
+		<Unit filename="../dataprocess/dataDynamic.h" />
+		<Unit filename="../dataprocess/dataSlice.h" />
+		<Unit filename="../dataprocess/database.h" />
+		<Unit filename="../dataprocess/tabdata.cpp" />
+		<Unit filename="../dataprocess/tabdata.h" />
+		<Unit filename="../display/display.cpp" />
+		<Unit filename="../display/display.h" />
+		<Unit filename="../display/displaybase.h" />
+		<Unit filename="../display/draw.cpp" />
+		<Unit filename="../display/draw.h" />
+		<Unit filename="../display/drawAnimation.cpp" />
+		<Unit filename="../display/drawAnimation.h" />
+		<Unit filename="../display/drawProcess.cpp" />
+		<Unit filename="../display/drawProcess.h" />
+		<Unit filename="../display/drawSlice.cpp" />
+		<Unit filename="../display/drawSlice.h" />
+		<Unit filename="../display/glwin.cpp" />
+		<Unit filename="../display/glwin.h" />
+		<Unit filename="../display/graph.cpp" />
+		<Unit filename="../display/graph.h" />
+		<Unit filename="../display/graphElement.h" />
+		<Unit filename="../display/tabgl.cpp" />
+		<Unit filename="../display/tabgl.h" />
+		<Unit filename="../main.cpp" />
+		<Unit filename="../mainwindow.cpp" />
+		<Unit filename="../mainwindow.h" />
+		<Unit filename="../simulator/gtmock.cpp" />
+		<Unit filename="../simulator/gtmock.h" />
+		<Unit filename="../simulator/simu.cpp" />
+		<Unit filename="../simulator/simu.h" />
+		<Unit filename="../simulator/simuthread.cpp" />
+		<Unit filename="../simulator/simuthread.h" />
+		<Unit filename="../utils/Vec3D.h" />
+		<Unit filename="../utils/config.cpp" />
+		<Unit filename="../utils/config.h" />
+		<Unit filename="../utils/hashtable.h" />
+		<Unit filename="../utils/initialization.cpp" />
+		<Unit filename="../utils/initialization.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
