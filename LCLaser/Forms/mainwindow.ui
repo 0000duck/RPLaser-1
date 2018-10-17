@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>895</width>
+    <height>594</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <property name="spacing">
+     <number>8</number>
+    </property>
+    <property name="leftMargin">
+     <number>8</number>
+    </property>
+    <property name="topMargin">
+     <number>8</number>
+    </property>
+    <property name="rightMargin">
+     <number>8</number>
+    </property>
+    <property name="bottomMargin">
+     <number>8</number>
+    </property>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>895</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuRead_file">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <widget class="QMenu" name="menuImport">
+     <property name="title">
+      <string>Import</string>
+     </property>
+     <addaction name="actionImport_STL"/>
+     <addaction name="actionImport_SLC"/>
+     <addaction name="actionImport_OBJ"/>
+     <addaction name="actionImport_PLY"/>
+    </widget>
+    <widget class="QMenu" name="menuExport">
+     <property name="title">
+      <string>Export</string>
+     </property>
+     <addaction name="actionExport_STL"/>
+    </widget>
+    <addaction name="menuImport"/>
+    <addaction name="separator"/>
+    <addaction name="menuExport"/>
+    <addaction name="separator"/>
+    <addaction name="actionSave_config"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menuProperty">
+    <property name="title">
+     <string>View</string>
+    </property>
+   </widget>
+   <addaction name="menuRead_file"/>
+   <addaction name="menuProperty"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <property name="baseSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionConnectMachine"/>
+   <addaction name="actionLaserOn"/>
+   <addaction name="actionSimulator"/>
+   <addaction name="actionPrint"/>
+   <addaction name="actionHalt"/>
+   <addaction name="actionQuit"/>
+   <addaction name="actionPluginManager"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionImport_SLC">
+   <property name="text">
+    <string>import SLC</string>
+   </property>
+  </action>
+  <action name="actionConnectMachine">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="../resource/resource.qrc">
+     <normaloff>:/connect.png</normaloff>
+     <normalon>:/uncoonect.png</normalon>:/connect.png</iconset>
+   </property>
+   <property name="text">
+    <string>connectMachine</string>
+   </property>
+  </action>
+  <action name="actionLaserOn">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="../resource/resource.qrc">
+     <normaloff>:/laseron.png</normaloff>
+     <normalon>:/laseroff.png</normalon>:/laseron.png</iconset>
+   </property>
+   <property name="text">
+    <string>laserOn</string>
+   </property>
+  </action>
+  <action name="actionSimulator">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="../resource/resource.qrc">
+     <normaloff>:/SIMU.png</normaloff>
+     <normalon>:/disSIMU.png</normalon>:/SIMU.png</iconset>
+   </property>
+   <property name="text">
+    <string>simulator</string>
+   </property>
+  </action>
+  <action name="actionPrint">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+   <property name="icon">
+    <iconset resource="../resource/resource.qrc">
+     <normaloff>:/start.png</normaloff>
+     <normalon>:/stop.png</normalon>:/start.png</iconset>
+   </property>
+   <property name="text">
+    <string>print</string>
+   </property>
+  </action>
+  <action name="actionHalt">
+   <property name="icon">
+    <iconset resource="../resource/resource.qrc">
+     <normaloff>:/halt.png</normaloff>:/halt.png</iconset>
+   </property>
+   <property name="text">
+    <string>halt</string>
+   </property>
+  </action>
+  <action name="actionQuit">
+   <property name="icon">
+    <iconset resource="../resource/resource.qrc">
+     <normaloff>:/turnoff.png</normaloff>:/turnoff.png</iconset>
+   </property>
+   <property name="text">
+    <string>quit</string>
+   </property>
+  </action>
+  <action name="actionSave_config">
+   <property name="text">
+    <string>save config</string>
+   </property>
+  </action>
+  <action name="actionImport_STL">
+   <property name="text">
+    <string>import STL</string>
+   </property>
+  </action>
+  <action name="actionExport_STL">
+   <property name="text">
+    <string>export STL</string>
+   </property>
+  </action>
+  <action name="actionPluginManager">
+   <property name="icon">
+    <iconset resource="../resource/resource.qrc">
+     <normaloff>:/pluginManager.png</normaloff>:/pluginManager.png</iconset>
+   </property>
+   <property name="text">
+    <string>pluginManager</string>
+   </property>
+  </action>
+  <action name="actionImport_OBJ">
+   <property name="text">
+    <string>import OBJ</string>
+   </property>
+  </action>
+  <action name="actionImport_PLY">
+   <property name="text">
+    <string>import PLY</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="../resource/resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
