@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CONFIG>
+    <SPEED>
+        <FeedRate round_per_pulse="10000" screw_lead="5"/>
+    </SPEED>
+    <MOTION>
+        <Velocity outline_velocity="111" move_velocity="109" move_acceleration="250" outline_filling_Acc="250" filling_velocity="115"/>
+        <OriginSeek origin_seekX="-129500" origin_seekY="159700" origin_seekZ="-105000"/>
+        <Origin origin_x="-129500" origin_y="159700" origin_z="-105000"/>
+        <MoveDirection forward_y="-1" up_z="1" left_x="1"/>
+    </MOTION>
+    <LASER>
+        <LightSpot light_spot_radius="0.1"/>
+        <Power DAvoltage="5" PWMduty_ratio="10"/>
+        <Refine off_delay="0" on_delay="0"/>
+    </LASER>
+    <MADEUP>
+        <Path height_each_layer="0.15" path_interval="0.25"/>
+    </MADEUP>
+    <COORD>
+        <Compensation is_compensation="1" trans_X="-0.2" trans_Y="0.3" rot_Z="0"/>
+    </COORD>
+</CONFIG>
