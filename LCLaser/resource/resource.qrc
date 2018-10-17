@@ -1,0 +1,39 @@
+<RCC>
+    <qresource prefix="/">
+        <file>3D.png</file>
+        <file>2D.png</file>
+        <file>connect.png</file>
+        <file>uncoonect.png</file>
+        <file>flash.png</file>
+        <file>laseron.png</file>
+        <file>red.png</file>
+        <file>laseroff.png</file>
+        <file>clockwise.png</file>
+        <file>anti-clockwise.png</file>
+        <file>green_cir.png</file>
+        <file>high.png</file>
+        <file>low.png</file>
+        <file>red_cir.png</file>
+        <file>square.png</file>
+        <file>disSIMU.png</file>
+        <file>SIMU.png</file>
+        <file>turnoff.png</file>
+        <file>stop.png</file>
+        <file>start.png</file>
+        <file>halt.png</file>
+        <file>splash.png</file>
+        <file>blueBack.png</file>
+        <file>mark-y.png</file>
+        <file>mark-g.png</file>
+        <file>mark-b.png</file>
+        <file>pluginManager.png</file>
+        <file>preStep.png</file>
+        <file>nextStep.png</file>
+        <file>arrowUp.png</file>
+        <file>arrowRight.png</file>
+        <file>arrowLeft.png</file>
+        <file>arrowDown.png</file>
+        <file>3Ds.png</file>
+        <file>2Ds.png</file>
+    </qresource>
+</RCC>
